@@ -1,0 +1,41 @@
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background-color: #347dff;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.logo .plus {
+  color: red;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.admin-section {
+  font-size: 14px;
+  text-align: left;
+}
