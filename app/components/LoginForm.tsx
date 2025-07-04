@@ -22,7 +22,6 @@ export default function LoginForm() {
           <input type="password" required />
 
           <button type="submit" className="btn black">Login</button>
-          <button className="btn outline">Login with Google</button>
         </form>
       </div>
     </div>
